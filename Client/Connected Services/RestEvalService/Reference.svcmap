@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="eb7e4caa-83b2-47b6-9151-9a28918f2e4d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/evalservice" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RestEvalService.wsdl" MetadataType="Wsdl" ID="02456847-0c91-4b58-b4c9-9f534838d410" SourceId="1" SourceUrl="http://localhost:8080/evalservice?wsdl" />
+    <MetadataFile FileName="evalservice.xsd" MetadataType="Schema" ID="86a2cbfb-feca-4a23-b4ff-6523e8023f0d" SourceId="1" SourceUrl="http://localhost:8080/evalservice?xsd=xsd1" />
+    <MetadataFile FileName="evalservice.disco" MetadataType="Disco" ID="5c0e3bdc-8d0e-454c-9aba-44c9ab11b204" SourceId="1" SourceUrl="http://localhost:8080/evalservice?disco" />
+    <MetadataFile FileName="evalservice1.xsd" MetadataType="Schema" ID="8bef45e2-f23a-4bff-8969-b347ab39e2e6" SourceId="1" SourceUrl="http://localhost:8080/evalservice?xsd=xsd2" />
+    <MetadataFile FileName="evalservice2.xsd" MetadataType="Schema" ID="bd1d9122-4802-4729-ba6b-68d393e841cf" SourceId="1" SourceUrl="http://localhost:8080/evalservice?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
